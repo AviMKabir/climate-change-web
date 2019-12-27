@@ -1,2 +1,2 @@
 # climate-change-web
-web app using data &amp; science for climate change
+web app with some info on climate change using real data and science :)
