@@ -1,3 +1,43 @@
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url("../fonts/ProximaNovaBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNovaRegular;
+    src: url("../fonts/ProximaNova-Regular.otf") format("opentype");
+}
+
+h1 {
+
+font-family: 'ProximaNovaBold';
+font-size: 100px;
+line-height: 5rem;
+color: #614D55;
+
+
+}
+
+h5 {
+
+font-family: 'ProximaNovaRegular';
+font-size: 42px;
+line-height: 2rem;
+
+}
+
+.maininfo {
+
+margin-top: 20px;
+color: #614D55;
+
+
+}
+
+
+
+/* scroll animation */
+
 #scroll-wrapper {
     /* margin-top: 200px; */
   display: table;
@@ -23,13 +63,15 @@
     display: block;
     text-transform: uppercase;
     color: #222;
-  font-family: "raleway";
-  font-size:14px;
-  font-weight:bold;
+  font-family: 'ProximaNovaBold';
+  font-size: 20px;
+  /* font-weight:bold; */
   letter-spacing:0.4em;
    text-align:center;
    /* transform: rotate(90deg); */
   /* margin-bottom: 45px; */
+  color: #614D55;
+
 }
 #scroll-down::before {
     -webkit-animation: elasticus 2.9s cubic-bezier(1, 0, 0, 1) infinite;
@@ -50,7 +92,7 @@
     margin-left: -5px;
     width: 2px;
     height: 90px;
-    background: #222;
+    background: #614D55;
     content: ' ';
 }
 
