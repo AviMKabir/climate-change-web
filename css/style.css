@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 @font-face {
     font-family: ProximaNovaBold;
     src: url("../fonts/ProximaNovaBold.otf") format("opentype");
@@ -103,3 +112,22 @@ h5 {
     }
 }
 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+        h1 {
+            font-family: 'ProximaNovaBold';
+            font-size: 60px;
+            line-height: 3rem;
+            color: #614D55;
+        }
+        
+        h5 {
+            font-family: 'ProximaNovaRegular';
+            font-size: 42px;
+            line-height: 2rem;
+        }
+
+    }
