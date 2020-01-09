@@ -131,3 +131,21 @@ h5 {
         }
 
     }
+
+    @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        h1 {
+            font-family: 'ProximaNovaBold';
+            font-size: 60px;
+            line-height: 3rem;
+            color: #614D55;
+        }
+        
+        h5 {
+            font-family: 'ProximaNovaRegular';
+            font-size: 42px;
+            line-height: 2rem;
+        }
+     }    
